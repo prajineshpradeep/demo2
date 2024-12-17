@@ -1,0 +1,13 @@
+# teleop_joy.yaml
+teleop_twist_joy_node:
+  ros__parameters:
+    axis_linear: 1          # Axis for linear movement (e.g., forward/backward)
+    scale_linear: 1.0        # Scale for normal speed
+    scale_linear_turbo: 2.0  # Scale for turbo speed
+
+    axis_angular: 0          # Axis for angular movement (e.g., rotation)
+    scale_angular: 1.0       # Scale for normal angular speed
+    scale_angular_turbo: 2.0 # Scale for turbo angular speed
+
+    enable_button: 4         # Button to enable movement
+    enable_turbo_button: 5   # Button to enable turbo speed
